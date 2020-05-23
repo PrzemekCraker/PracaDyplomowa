@@ -1,6 +1,6 @@
 # Praca Dyplomowa
 
-## Aplikacja do zarzadzania wartościami odżywczymi
+## Aplikacja do zarządzania wartościami odżywczymi
 
 ## <p>1. Krótki opis pracy + 4. Technologie &#9989;</p>
 
@@ -15,12 +15,11 @@ __Główne założenia na aplikację:__
 - Funkcjonalność
 - Przejrzystość
 ## <p>2. Schemat bazy danych &#9989;</p>
-
-<img src="2. DPU Main.jpg" alt="DPU Main">
+<img src="1. SchematBazyDanych.png" alt="Schemat Bazy Danych">
 
 ## <p>3. Diagram przypadków użycia &#9989;</p>
 
-<img src="1. SchematBazyDanych.png" alt="Schemat Bazy Danych">
+<img src="2. DPU Main.jpg" alt="DPU Main">
 
 ## <p>4. Opisy funkcjonalności &#9989;</p>
 
@@ -280,7 +279,7 @@ __Główne założenia na aplikację:__
 ## <p>5. Zgłoszenie tematu &#9989;</p>
 <a href="https://github.com/PrzemekCraker/PracaDyplomowa/blob/master/5.%20Zg%C5%82oszenie%20tematu.doc">Zgłoszenie tematu pracy dyplomowej w formacie .docx</a>
 
-### Inne dodatkowe rzeczy, które mogą pojawić się w aplikacji:
+### Inne dodatkowe funkcje, które mogą pojawić się w aplikacji:
 - dodawanie ceny produktu (średnia cena jaka jest spotykana w sklepach – np. jeśli zostanie dodana weryfikacja dodania nowego produktu to po 10 potwierdzeniach – opcja dla użytkowników weryfikujących – podanie ceny, jeśli spotkali inna w innym sklepie - cena zostanie uśredniona lub pokazana w widełkach)
 - użytkownik wybiera gramaturę produktu, którą dodaje do dziennego spożycia (stała w aplikacji to Wartość odżywcza/100g, ale aplikacja będzie sama wyliczać z podanej gramatury przez użytkownika)
 - użytkownik dodaje „wolne” wartości odżywcze (bez potrzeby określania jaki to był produkt lub wybierania go z bazy) – po prostu dodaje makro do swojego dziennego spożycia
