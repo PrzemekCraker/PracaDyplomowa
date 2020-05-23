@@ -1,23 +1,28 @@
-# PracaDyplomowa
+# Praca Dyplomowa
 
-##Aplikacja do zarzadzania wartościami odżywczymi
+## Aplikacja do zarzadzania wartościami odżywczymi
 
-## 1. Krótki opis pracy + 4. Technologie <p>&#9989;</p>
+## <p>1. Krótki opis pracy + 4. Technologie &#9989;</p>
 
 __Main aplikacji:__
 Aplikacja umożliwia skanowanie produktu za pomocą kodu QR/Barcode i dodanie wartości odżywczych tegoż produktu do swojego dziennego spożycia makroelementów (wartości odżywczych) – jeśli produktu nie było dotychczas w bazie, użytkownik może własnoręcznie go dodać i uzupełnić jego dane wartości odżywczych. Użytkownik ma możliwość dodania dziennych limitów na spożycie konkretnych wartości odżywczych oraz dostaje codzienne/tygodniowe podsumowania.
 
 __Technologie:__
 - React Native + MySQL / MongoDB
+
 __Główne założenia na aplikację:__
 - Prostota
 - Funkcjonalność
 - Przejrzystość
-## 2. Schemat bazy danych <p>&#9989;</p>
-![DPU Main](2. DPU Main.jpg)
-## 3. Diagram przypadków użycia <p>&#9989;</p>
-![Schemat Bazy Danych](1. SchematBazyDanych.png)
-## 4. Opisy funkcjonalności <p>&#9989;</p>
+## <p>2. Schemat bazy danych &#9989;</p>
+
+<img src="2. DPU Main.jpg" alt="DPU Main">
+
+## <p>3. Diagram przypadków użycia &#9989;</p>
+
+<img src="1. SchematBazyDanych.png" alt="Schemat Bazy Danych">
+
+## <p>4. Opisy funkcjonalności &#9989;</p>
 
 ### 1. Skanuj QR/barcode
 <table>
@@ -52,6 +57,7 @@ __Główne założenia na aplikację:__
     </tr>
   </tbody>
 </table>
+
 ### 2. Podaj gramaturę produktu
 <table>
   <tbody>
@@ -83,6 +89,7 @@ __Główne założenia na aplikację:__
     </tr>
   </tbody>
 </table>
+
 ### 3. Zapisz do bazy
 <table>
   <tbody>
@@ -113,6 +120,7 @@ __Główne założenia na aplikację:__
     </tr>
   </tbody>
 </table>
+
 ### 4. Dodaj produkt do bazy
 <table>
   <tbody>
@@ -144,6 +152,7 @@ __Główne założenia na aplikację:__
     </tr>
   </tbody>
 </table>
+
 ### 5. Uzupełnij dane wartości odżywczych nowego produktu
 <table>
   <tbody>
@@ -174,6 +183,7 @@ __Główne założenia na aplikację:__
     </tr>
   </tbody>
 </table>
+
 ### 6. Zatwierdź produkt
 <table>
   <tbody>
@@ -204,6 +214,7 @@ __Główne założenia na aplikację:__
     </tr>
   </tbody>
 </table>
+
 ### 7. Generuj tygodniowe podsumowanie
 <table>
   <tbody>
@@ -234,6 +245,7 @@ __Główne założenia na aplikację:__
     </tr>
   </tbody>
 </table>
+
 ### 8. Ustaw dzienny limit
 <table>
   <tbody>
@@ -264,8 +276,10 @@ __Główne założenia na aplikację:__
     </tr>
   </tbody>
 </table>
-## 5. Zgłoszenie tematu <p>&#9989;</p>
+
+## <p>5. Zgłoszenie tematu &#9989;</p>
 <a href="https://github.com/PrzemekCraker/PracaDyplomowa/blob/master/5.%20Zg%C5%82oszenie%20tematu.doc">Zgłoszenie tematu pracy dyplomowej w formacie .docx</a>
+
 ### Inne dodatkowe rzeczy, które mogą pojawić się w aplikacji:
 - dodawanie ceny produktu (średnia cena jaka jest spotykana w sklepach – np. jeśli zostanie dodana weryfikacja dodania nowego produktu to po 10 potwierdzeniach – opcja dla użytkowników weryfikujących – podanie ceny, jeśli spotkali inna w innym sklepie - cena zostanie uśredniona lub pokazana w widełkach)
 - użytkownik wybiera gramaturę produktu, którą dodaje do dziennego spożycia (stała w aplikacji to Wartość odżywcza/100g, ale aplikacja będzie sama wyliczać z podanej gramatury przez użytkownika)
