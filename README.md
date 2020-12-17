@@ -15,7 +15,7 @@ __Główne założenia na aplikację:__
 - Funkcjonalność
 - Przejrzystość
 ## <p>2. Schemat bazy danych &#9989;</p>
-<img src="1. SchematBazyDanych.png" alt="Schemat Bazy Danych">
+<img src="1. SchematBazyDanychFixed.png" alt="Schemat Bazy Danych">
 
 ## <p>3. Diagram przypadków użycia &#9989;</p>
 
